@@ -4,4 +4,4 @@ spring:
 
 springbok:
   brewery:
-    apihost: http://localhost:8080
+    apihost: 'http://localhost:8080'
