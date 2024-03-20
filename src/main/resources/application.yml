@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: brewery-client
+
+springbok:
+  brewery:
+    apihost: http://localhost:8080
