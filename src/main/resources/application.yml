@@ -5,3 +5,10 @@ spring:
 springbok:
   brewery:
     apihost: 'http://localhost:8080'
+  max-total-connections: 100
+  default-max-total-connections: 20
+  connection-request-timeout: 3000
+
+logging:
+  level:
+    org.apache.http: debug
